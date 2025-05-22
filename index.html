@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.2.0/handlebars.min.js"></script>
+  </head>
+  <body>
+    <!--treba template staviti u scrit tag, treba definirati tip-->
+    <script type="text/x-handlebars-template" id="entry">
+      <h1>{{title}}</h1>
+      <p>{{body}}</p>
+      <span>{{caption}}</span>
+    </script>
+    <!--div za prikaz rezultata-->
+
+    <div id="result"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>
