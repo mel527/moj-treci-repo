@@ -4,7 +4,7 @@ const template = Handlebars.compile(source); //funkcija Handlebars koja ima u se
 const data = {
     title: "Vjezba",
     body: "Vjezba",
-    caption: "Vjezba-vjezba",
+    caption: "Vjezba",
 };
 
 const  html = template(data);
